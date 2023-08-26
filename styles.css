@@ -17,10 +17,13 @@ body{
     height:100%;
   }
 
-  /*Step 10*/
+  /*Step 10,13*/
   .bb1{
     width: 10%;
     height: 70%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
   }  
 
   /*Step 12*/
