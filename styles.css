@@ -11,39 +11,65 @@ body{
     overflow:hidden;
   }
 
-  /*Step 9*/
+  /*Step 9,20*/
   .background-buildings{
     width:100%;
     height:100%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    display:flex;
   }
 
-  /*Step 10,13*/
+  /*Step 10,13,14,17*/
   .bb1{
     width: 10%;
     height: 70%;
     display:flex;
     flex-direction:column;
     align-items:center;
+    --building-color1:#aa80ff;
   }  
 
-  /*Step 12*/
+  /*Step 12,15*/
   .bb1a{
     width: 70%;
     height: 10%;
+    background-color:var(--building-color1);
   }
-  /*Step 12*/
+  /*Step 12,16*/
   .bb1b{
     width: 80%;
     height: 10%;
+    background-color: var(--building-color1);
   }
-  /*Step 12*/
+  /*Step 12,16*/
   .bb1c{
     width: 90%;
     height: 10%;
+    background-color: var(--building-color1);
   }
-  /*Step 12*/
+  /*Step 12,16*/
   .bb1d{
     width: 100%;
     height: 70%;
+    background-color: var(--building-color1);
+  }
+
+  /*Step 19*/
+  .bb2 {
+    width: 10%;
+    height: 50%;
+  }
+
+  /*Step 19*/
+  .bb3 {
+    width: 10%;
+    height: 55%;
+  }
+
+  /*Step 19*/  
+  .bb4 {
+    width: 11%;
+    height: 58%;
   }
   
