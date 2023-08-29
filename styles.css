@@ -84,12 +84,12 @@ body{
   }
 
   /*Step 29,32,33*/
-  .foreground-building{
-    width:100%;
-    height:100%;
-    position:absolute;
-   align-items: flex-end;
-    justify-content: space-evenly;
+  .foreground-buildings{
+    width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
   }
 
   /*Step 31*/
