@@ -38,6 +38,7 @@ body{
     top: 0;
   }
 
+  /*BACKGROUND BUILDINGS - "bb" stands for "background building" Step 38*/
   /*Step 10,13,14,17,24,25*/
   .bb1{
     width: 10%;
@@ -102,6 +103,7 @@ body{
   justify-content: space-evenly;
   }*/
 
+  /*FOREGROUND BUILDINGS - "fb" stands for "foreground building",Step 38*/
   /*Step 31,35*/
   .fb1{
     width: 10%;
@@ -122,18 +124,22 @@ body{
     height: 35%;
     background-color: var(--building-color1);
   }
-  /*Step 31,35*/
+  /*Step 31,35,37*/
   .fb4{
     width: 8%;
     height: 45%;
     background-color: var(--building-color1);
+    position:relative;
+    left:10%;
   }
   
-  /*Step 31,35*/
+  /*Step 31,35,37*/
   .fb5{
     width: 10%;
     height: 33%;
     background-color: var(--building-color2);
+    position:relative;
+    right:10%;
   }
   
   /*Step 31,35*/
