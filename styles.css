@@ -1,9 +1,10 @@
-/*Step 25*/
+/*Step 25,39*/
 :root{
   --building-color1: #aa80ff;
   --building-color2: #66cc99;
   --building-color3: #cc6699;
   --building-color4: #538cc6;
+  --window-color1:black;
 }
 /*Step 5,6*/
 *{
@@ -48,12 +49,19 @@ body{
     align-items:center;
   }  
 
-  /*Step 12,15*/
+  /*Step 12,15,41*/
   .bb1a{
     width: 70%;
-    height: 10%;
     background-color:var(--building-color1);
   }
+  /*Step 41*/
+  .bb1-window{
+    height: 10%;
+    background: linear-gradient(
+       var(--building-color1),
+       var(--window-color1)
+     );
+ }
   /*Step 12,16*/
   .bb1b{
     width: 80%;
@@ -66,7 +74,7 @@ body{
     height: 10%;
     background-color: var(--building-color1);
   }
-  /*Step 12,16*/
+  /*Step 12,16,40*/
   .bb1d{
     width: 100%;
     height: 70%;
