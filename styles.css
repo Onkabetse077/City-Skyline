@@ -49,6 +49,13 @@ body{
     align-items:center;
   }
 
+  /*Step 71*/
+  .window-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
   /*BACKGROUND BUILDINGS - "bb" stands for "background building" Step 38*/
   /*Step 10,13,14,17,24,25,66*/
   .bb1{
@@ -153,6 +160,13 @@ body{
     background-color: var(--building-color4);
   }
 
+  /*Step 70*/
+  .bb4-window {
+    width: 18%;
+    height: 90%;
+    background-color: var(--window-color4);
+  }
+
   /*Step 29,32,33,33
   .foreground-buildings{
     width: 100%;
@@ -163,11 +177,44 @@ body{
   }*/
 
   /*FOREGROUND BUILDINGS - "fb" stands for "foreground building",Step 38*/
-  /*Step 31,35*/
+  /*Step 31,35,75*/
   .fb1{
     width: 10%;
     height: 60%;
+  }
+
+  /*Step 79,80*/
+  .fb1a{
+    border-bottom:7vh solid var(--building-color4);
+    border-bottom: 7vh solid var(--building-color4);
+    border-left:2vw solid transparent;
+    border-right:2vw solid transparent;
+  }
+
+  /*Step 74,75,78*/
+  .fb1b{
+    width: 60%;
+    height: 10%;
     background-color: var(--building-color4);
+  }
+  
+  /*Step 74*/
+  .fb1c{
+    width: 100%;
+    height: 80%;
+    background: repeating-linear-gradient(
+      90deg,
+      var(--building-color4),
+      var(--building-color4) 10%,
+      transparent 10%,
+      transparent 15%
+    ),
+    repeating-linear-gradient(
+      var(--building-color4),
+      var(--building-color4) 10%,
+      var(--window-color4) 10%,
+      var(--window-color4) 90%
+    );
   }
 
   /*Step 31,35*/
